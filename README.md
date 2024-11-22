@@ -20,6 +20,8 @@ git rm -r --cached .vs
 git add .gitignore
 git commit -m "Exclude .vs files"
 git reset
+git add .
+
 
 
 
