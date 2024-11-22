@@ -17,3 +17,7 @@ git commit -m "Reinitialize repository"
 echo ".vs/" >> .gitignore
 git rm -r --cached .vs
 
+git add .gitignore
+git commit -m "Exclude .vs files"
+
+
