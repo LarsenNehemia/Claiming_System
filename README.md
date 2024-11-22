@@ -13,3 +13,7 @@ rm -rf .git
 git init
 git add .
 git commit -m "Reinitialize repository"
+
+echo ".vs/" >> .gitignore
+git rm -r --cached .vs
+
